@@ -1,0 +1,5 @@
+{
+  "apexskier.typescript.config.formatDocumentOnSave" : "true",
+  "apexskier.typescript.config.organizeImportsOnSave" : "null",
+  "prettier.default-config.useTabs" : "Global Default"
+}

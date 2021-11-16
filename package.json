@@ -1,0 +1,68 @@
+{
+    "private": true,
+    "name": "frontend-challenge",
+    "version": "1.1.0",
+    "description": "Qogita's Front-End Technical Challenge.",
+    "main": "src/index.tsx",
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "prestart": "npm run build",
+        "test": "jest --watch",
+        "start": "next start"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/qogita/frontend-challenge.git"
+    },
+    "author": "Qogita",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/qogita/frontend-challenge/issues"
+    },
+    "homepage": "https://github.com/qogita/frontend-challenge#readme",
+    "dependencies": {
+        "@types/node": "^16.11.7",
+        "@types/styled-components": "^5.1.15",
+        "axios": "^0.24.0",
+        "next": "^12.0.3",
+        "next-redux-wrapper": "^7.0.5",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-icons": "^4.3.1",
+        "react-redux": "^7.2.6",
+        "react-spring": "^9.3.0",
+        "redux": "^4.1.2",
+        "redux-devtools-extension": "^2.13.9",
+        "redux-persist": "^6.0.0",
+        "redux-thunk": "^2.4.0",
+        "styled-components": "^5.3.3"
+    },
+    "devDependencies": {
+        "@testing-library/dom": "^8.11.1",
+        "@testing-library/jest-dom": "^5.15.0",
+        "@testing-library/react": "^12.1.2",
+        "@testing-library/user-event": "^13.5.0",
+        "@types/enzyme": "^3.10.10",
+        "@types/jest": "^27.0.2",
+        "@types/moxios": "^0.4.13",
+        "@types/react": "^17.0.34",
+        "@types/react-dom": "^17.0.11",
+        "@types/react-redux": "^7.1.20",
+        "@wojtekmaj/enzyme-adapter-react-17": "^0.6.5",
+        "autoprefixer": "^10.4.0",
+        "babel-jest": "^27.3.1",
+        "babel-plugin-react-remove-properties": "^0.3.0",
+        "babel-plugin-styled-components": "^1.13.3",
+        "enzyme": "^3.11.0",
+        "eslint": "^8.2.0",
+        "eslint-config-next": "^12.0.3",
+        "identity-obj-proxy": "^3.0.0",
+        "jest": "^27.3.1",
+        "moxios": "^0.4.0",
+        "postcss": "^8.3.11",
+        "react-test-renderer": "^17.0.2",
+        "tailwindcss": "^2.2.19",
+        "typescript": "^4.4.4"
+    }
+}
